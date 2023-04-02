@@ -25,8 +25,8 @@ export 'package:cached_network_image/cached_network_image.dart';
 
 export 'common_widgets/directionality_rtl.dart';
 
-export '../app/blog_theme/index.dart';
-export '../app/blog_theme/common/assets/image_assets.dart';
+export '../app/index.dart';
+export '../app/common/assets/image_assets.dart';
 
 
 final appCtrl = Get.isRegistered<AppController>()
