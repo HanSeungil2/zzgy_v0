@@ -1,6 +1,7 @@
 
 
 import '../../../../config.dart';
+import '../../index.dart';
 
 class BlogOnboardController extends GetxController{
   int currentIndex =0;

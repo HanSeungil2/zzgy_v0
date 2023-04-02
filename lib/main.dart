@@ -1,6 +1,6 @@
 
 import 'package:flutter/services.dart';
-import 'package:multi_kit/themes/blog_theme/pages/auth_pages/blog_splash.dart';
+import 'app/blog_theme/pages/auth_pages/blog_splash.dart';
 import 'config.dart';
 
 void main() async {

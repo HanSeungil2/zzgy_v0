@@ -1,3 +1,5 @@
+import '../../common/model/blog_detail_model.dart';
+import '../../common/model/blog_model.dart';
 import '/../../config.dart';
 
 class BlogDetailController extends GetxController {

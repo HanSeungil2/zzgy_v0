@@ -1,8 +1,8 @@
 
 
-import '/../themes/blog_theme/pages/blog_pages/blog_detail/layouts/blog_detail_body.dart';
-
 import '../../../../../config.dart';
+import 'layouts/blog_detail_body.dart';
+
 
 class BlogDetail extends StatefulWidget {
   const BlogDetail({Key? key}) : super(key: key);
