@@ -1,7 +1,7 @@
 
 import '/../app/blog_theme/common/blog_app_array.dart';
 import '/../app/blog_theme/common/blog_theme_font.dart';
-export '/../app/blog_theme/blog_controllers/index.dart';
+export '/../app/blog_theme/controllers/index.dart';
 export 'common/widgets/common_auth_background.dart';
 export 'common/widgets/blog_button.dart';
 export 'common/widgets/blog_text_box.dart';
