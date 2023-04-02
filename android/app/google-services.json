@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "97142213245",
+    "project_id": "zzogaeyo",
+    "storage_bucket": "zzogaeyo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97142213245:android:438b99a490e948d9557f14",
+        "android_client_info": {
+          "package_name": "com.zzgy.zzgy_v0"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97142213245-mfp5264puv4bmdhn5s74e56f6moku2gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8l8M3S2Rl4CUN5HJs-IWkNOJGQOtF0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97142213245-mfp5264puv4bmdhn5s74e56f6moku2gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
