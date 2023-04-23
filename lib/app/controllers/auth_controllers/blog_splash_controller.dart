@@ -11,7 +11,7 @@ class BlogSplashController extends GetxController{
   void onInit() async {
     timer = Timer(
         const Duration(seconds: 3),
-            () =>  Get.toNamed(routeName.blogOnboard));
+            () =>  Get.toNamed(routeName.loginChk));
 
     super.onInit();
   }

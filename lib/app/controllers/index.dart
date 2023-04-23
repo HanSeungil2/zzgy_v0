@@ -1,6 +1,8 @@
 
 export 'auth_controllers/blog_splash_controller.dart';
 export 'auth_controllers/blog_onboard_controller.dart';
+export 'auth_controllers/login_controller.dart';
+export 'auth_controllers/loading_controller.dart';
 export 'blog_pages_controller/choose_topic_controller.dart';
 export 'bottom_controllers/blog_dashboard_controller.dart';
 export 'bottom_controllers/blog_profile_controller.dart';

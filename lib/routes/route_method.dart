@@ -1,4 +1,6 @@
 
+
+
 import '../../config.dart';
 
 //app file
@@ -10,12 +12,12 @@ RouteName _routeName = RouteName();
 class AppRoute {
   final List<GetPage> getPages = [
 
-
+    GetPage(name: _routeName.loginChk, page: () =>  LoginChk()),
 
     //blog route
     GetPage(name: _routeName.blogSplash, page: () =>  BlogSplash()),
     GetPage(name: _routeName.blogOnboard, page: () =>  BlogOnboard()),
-    GetPage(name: _routeName.gettingStarted, page: () => const GettingStarted()),
+    GetPage(name: _routeName.gettingStarted, page: () => GettingStarted()),
     GetPage(name: _routeName.blogLogin, page: () => const BlogLogin()),
     GetPage(name: _routeName.blogSignup, page: () => const BlogSignup()),
     GetPage(name: _routeName.chooseTopic, page: () =>  ChooseTopic()),

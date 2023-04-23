@@ -22,11 +22,14 @@ export 'extensions/text_span_extension.dart';
 export 'extensions/textstyle_extensions.dart';
 export 'extensions/widget_extension.dart';
 export 'package:cached_network_image/cached_network_image.dart';
+export 'package:multi_kit/app/pages/auth_pages/login_chk.dart';
 
 export 'common_widgets/directionality_rtl.dart';
 
 export '../app/index.dart';
 export '../app/common/assets/image_assets.dart';
+
+export 'package:firebase_core/firebase_core.dart';
 
 
 final appCtrl = Get.isRegistered<AppController>()

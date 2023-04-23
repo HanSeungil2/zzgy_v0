@@ -1,5 +1,7 @@
 
 
+import 'package:firebase_auth/firebase_auth.dart';
+
 import '../../../../../config.dart';
 import '../../../common/widgets/grocery_button.dart';
 
@@ -39,6 +41,7 @@ class BlogDrawer extends StatelessWidget {
                     }).toList(),
                     const VSpace(Sizes.s30),
                     GroceryCustomButton(
+                        onTap: () async => await FirebaseAuth.instance.signOut(),
                         title: trans(blogThemeFont.logout),
                         color: appCtrl.appTheme.whiteColor,
                         border: Border.all(color: appCtrl.appTheme.blogPrimary),

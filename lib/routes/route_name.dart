@@ -1,7 +1,6 @@
 class RouteName {
 
-
-
+  final String loginChk = '/loginChk';
 
   //blog route
   final String blogSplash = '/blogSplash';

@@ -27,7 +27,6 @@ class BlogDashboardController extends GetxController with GetTickerProviderState
 
   @override
   void onReady() async {
-    // TODO: implement onReady
     con = TabController(
         vsync: this,
         length: 5,
