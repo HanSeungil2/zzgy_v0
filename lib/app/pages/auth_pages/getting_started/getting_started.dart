@@ -6,7 +6,7 @@ class GettingStarted extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<LoginController>(builder: (context) {
+    return GetBuilder<LoginController>(builder: (context1) {
       return Scaffold(
         body: CommonAuthBackground(
           child: DirectionalityRtl(
